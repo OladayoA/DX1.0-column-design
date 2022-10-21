@@ -1,0 +1,77 @@
+@media screen and (max-width: 600px) { 
+    /* ===== First section starts here===== */
+    .firstSection {
+        height: 520px;
+    }
+
+    .FirstSection-leftdiv {
+        width: 60%;
+    }
+
+    .FirstSection-rightdiv {
+        width: 40%;
+    }
+
+    .heading {
+        font-size: 40px;
+    }
+
+    .line {
+        width: 200px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+    
+    .link-holder {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 25px;
+        padding-left: 40px;
+    }
+
+    .link-holder h4 {
+        margin-bottom: 20px;
+    }
+
+    /* ===== First section starts here===== */
+
+
+    /* ==== Second section ends here ==== */
+    .SecondSection {
+        flex-direction: column;
+    }
+        .SecondSection-RightDiv {
+            margin-left: 0;
+            margin-top: 30px;
+        }
+    
+       /* ==== Second section ends here ==== */
+
+       /* ==== Third section section ends here ==== */
+    
+       .ThirdSection {
+        flex-direction: column-reverse;
+        align-items: center;
+        }
+        .ThirdSection-LeftDiv{
+            margin-top: 30px;
+        }
+/* ==== Third section section ends here ==== */
+
+
+/* ===== Footer section starts here===== */
+        footer {
+            flex-direction: column;
+            text-align: center;
+            padding: 20px 30px;
+        }
+
+        .footer-IconContainer {
+            padding: 15px 0;
+        }
+
+/* ===== Footer section end here===== */
+
+}
